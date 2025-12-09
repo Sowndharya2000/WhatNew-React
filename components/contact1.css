@@ -1,0 +1,229 @@
+/* ===== Support Help Section ===== */
+.support-help-section {
+  width: 100%;
+  padding: 50px 0;
+}
+
+/* ===== Content Container ===== */
+.support-help-content {
+  width: 85%;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 2px solid #d1a2a2;
+background-color: #fff8e1;
+
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  line-height: 1.7;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===== Section Titles ===== */
+.support-help-title {
+  font-size: 26px !important;
+  font-weight: 700;
+  color: #111;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.support-help-intro {
+  text-align:left;
+  color: #444;
+  margin-bottom: 30px;
+  font-size: 17px !important;
+}
+
+/* ===== Subtitles (Buyers, Sellers, etc.) ===== */
+.support-subtitle {
+  font-size: 20px !important;
+  font-weight: 700;
+  color: #222;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  text-align: left;
+  
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* ===== Headings ===== */
+.support-help-content h3 {
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  font-size: 19px !important;
+  text-align: left;
+  padding-bottom: 6px;
+}
+
+/* ===== Paragraphs ===== */
+.support-help-content p {
+  max-width: 700px;
+  margin-bottom: 20px;
+  color: #444;
+  font-size: 16px !important;
+  line-height: 1.8;
+  word-wrap: break-word;
+}
+
+/* ===== Unordered Lists (• bullets) ===== */
+.support-help-content ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 25px;
+}
+
+.support-help-content li {
+  position: relative;
+  margin-bottom: 12px;
+  padding-left: 28px;
+  max-width: 700px;
+  line-height: 1.7;
+  color: #333;
+  font-size: 16px !important;
+  word-wrap: break-word;
+}
+
+.support-help-content ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ff6600;
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+/* ===== Ordered Lists (1, 2, 3...) ===== */
+.support-help-content ol {
+  margin-left: 25px;
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 16px !important;
+}
+
+.support-help-content ol li {
+  margin-bottom: 10px;
+  line-height: 1.8;
+}
+
+/* ===== Strong Tags ===== */
+.support-help-content strong {
+  color: #000;
+  font-weight: 600;
+}
+
+/* ===== Note Boxes ===== */
+.note {
+  background: #f9fafb;
+  border-left: 4px solid #3b82f6;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #374151;
+  margin-top: 15px;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  .support-help-content {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .support-help-content p,
+  .support-help-content li {
+    max-width: 100%;
+    text-align: justify;
+    font-size: 16px !important;
+  }
+
+  .support-help-content h3 {
+    font-size: 18px !important;
+  }
+
+  .support-help-title {
+    font-size: 22px !important;
+  }
+}
+
+
+
+
+/* ===== Manage Account Section ===== */
+.manage-account-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 20px;
+ 
+}
+
+/* ===== Title ===== */
+.manage-account-title {
+  font-size: 20px !important;
+  font-weight: 700;
+  color: #111;
+  text-align: start !important;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* ===== Manage Account Section ===== */
+.manage-account-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 20px 20px 20px; /* ⬅ bottom padding set to 20px */
+  margin-bottom: 20px; /* ⬅ adds clean space below */
+}
+
+/* ===== Card ===== */
+.manage-account-card {
+  border: 2px solid #00aaff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px !important;
+  margin: 20px auto 0 auto !important; /* ⬅ remove bottom margin inside card */
+  text-align: left;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 900px;
+}
+
+
+
+/* ===== Links ===== */
+.manage-account-link {
+  display: block;
+  text-decoration: none;
+  font-size: 18px !important;
+  color: #000;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.manage-account-link:hover {
+  color: #fd7a0f;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .manage-account-card {
+    padding: 30px 20px;
+  }
+
+  .manage-account-title {
+    font-size: 24px !important;
+  }
+
+  .manage-account-link {
+    font-size: 16px !important;
+  }
+}
